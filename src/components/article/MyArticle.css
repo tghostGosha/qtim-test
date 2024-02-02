@@ -1,0 +1,31 @@
+.article__card {
+    flex: 0 1 23%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: all 0.3s ease-in-out 0s;
+    position: relative;
+}
+.article__card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-bottom: 24px;
+}
+.article__card p{
+    text-align: left;
+    line-height: 24px;
+}
+.article__card a {
+    position: absolute;
+    bottom: -20px;
+    color: #E2BEFF;
+    display: none;
+    transition: all 0.3s ease-in-out 0s;
+}
+.article__card:hover a{
+    display: block;
+}
+.article__card:hover {
+    transform: translateY(-20px);
+}

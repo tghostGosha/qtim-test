@@ -1,0 +1,92 @@
+footer {
+    background-color: #E2BEFF;
+}
+.footer__container {
+    padding: 8.75rem 7rem 30px 7rem;
+}
+.footer__body {
+justify-content: space-between;
+}
+.footer__calling {
+    display: flex;
+    flex-direction: column;
+    row-gap: 56px;
+    flex: 0 0 40%;
+    align-items: flex-start;
+}
+.footer__calling h1 {
+    text-align: left;
+    text-decoration: underline 4px;
+}
+.footer__calling span{
+    font-size: 16px;
+    line-height: 19px;
+}
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    row-gap: 36px;
+}
+.footer__contacts div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+    align-items: flex-start;
+}
+.footer__contacts button {
+    border-radius: 50%;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+}
+.footer__nav {
+    margin-top: 17rem;
+    position: relative;
+}
+.footer__nav ul{
+   column-gap: 32px;
+    justify-content: space-between;
+    color: #101010;
+}
+.footer__nav ul li a{
+    font-size: 16px;
+    line-height: 19px;
+    color: #101010;
+    position: relative;
+
+}
+.footer__nav ul li a::before{
+   content: '';
+    position: absolute;
+    bottom: -4px;
+    width: 100%;
+    height: 1px;
+    background-color: #101010;
+}
+.footer__nav ul li:nth-child(3) {
+    margin-right: 44rem;
+}
+.go__button {
+    width: 358px;
+    height: 358px;
+    background-color: #101010;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -14rem;
+    left: 40%;
+    transition: all 0.3s ease-in-out 0s;
+}
+.go__button:hover {
+    transform: scale(1.2);
+}
+.go__button span{
+   color: white;
+    font-size: 32px;
+    line-height: 32px;
+    position: relative;
+    top: -8%;
+}

@@ -1,0 +1,42 @@
+header {
+    width: 100%;
+
+}
+.header__container {
+    margin: 0 auto;
+    width: 100%;
+    padding: 35px 40px;
+    justify-content: space-between;
+}
+.header__control {
+    column-gap: 91px;
+}
+.buttons__control {
+    column-gap: 16px;
+}
+.black__button {
+    background-color: #101010;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 30px;
+}
+.lang__button {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    border: 2px solid  #E8E8E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+header nav {
+    column-gap: 58px;
+
+}
+
+header nav a {
+    font-size: 20px;
+    color: #2c3e50;
+}
+
+
